@@ -96,9 +96,9 @@ int main(int argc, char *argv[])
     print(arr, N);
     //selection(arr, 0, N-1);
     //bubble(arr, 0, N-1);
-    //insertion(arr, 0, N-1);
-	//shellsort(arr, 0, N-1);
-    quick_sort(arr, 0, N-1);
+    insertion(arr, 0, N-1);
+    //shellsort(arr, 0, N-1);
+    //quick_sort(arr, 0, N-1);
     
     print(arr, N);
     return a.exec();
